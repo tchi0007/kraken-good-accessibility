@@ -55,6 +55,7 @@ article header {
   background-image: none;
   border-radius: 0 0 6px 6px;
   color: #fff;
+  padding: 0;
 }
 
 h1 {
@@ -77,6 +78,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-right: 1rem;
 }
 
 nav a {
@@ -125,8 +127,8 @@ article div :first-child {
 }
 
 article div :first-child::first-line {
-  color: #fff;
-  font-style: normal;
+  color: #1e7c74;
+  font-style: italic;
 }
 
 figure {
